@@ -13,6 +13,7 @@ When I got it, and started using, there appeared one problem. **Logitech G300** 
 1. Googled it first http://roccat.sourceforge.net/general.html (Roccat hardware support for Linux) and learned about the constant:
 
     >**ScanInterval**
+    
     >Sets the interval in seconds, the monitor scans for the active window to change profiles according to gamefile settings. **Windows driver uses fix 2 seconds**. You can change this value to 0 to switch off the monitor completely if you don't use gamefile settings. A value of 1 leads to more responsive profile changes. Setting a value greater 2 leads to more lagging profile changes and does not make much sense.
     >Valid values: integer >= 0
     >Default value: 2
@@ -26,4 +27,4 @@ When I got it, and started using, there appeared one problem. **Logitech G300** 
    ![Screen 1](https://image.prntscr.com/image/a5d11ce86f2f4da1b7ef8f9c03b52d9a.jpg)
    ![Screen 2](https://image.prntscr.com/image/2ff14905c1b543bfb64458fa5a98f2fc.jpg)
    
-   And maked 3 files with values 1000, 500 and 100 respectively. You can find them in the repository https://github.com/frantsmn/TyonDriver. Not sure that all of them work steadily (I use  with 1000ms delay), but profiles switch is now much faster. :)
+   And maked 3 files with values 1000, 500 and 100 respectively. You can find them in the repository https://github.com/frantsmn/TyonDriver. (Just replace and rename like original.) Not sure that all of them work steadily (I use  with 1000ms delay), but profiles switch is now much faster. :)
